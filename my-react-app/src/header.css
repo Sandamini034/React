@@ -1,0 +1,13 @@
+.box1{
+    display:block;
+    position:sticky;
+    top:0;
+    height:100px;
+    width:100%-10px;
+    margin-top:0;
+    padding:10px;
+    background-color:#111827;
+    border:solid 2px;
+    border-color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
