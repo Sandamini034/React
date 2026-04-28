@@ -1,8 +1,11 @@
 import "./signup.css";
 import React, { useState } from "react";
 import Header from "./Header.jsx"
+import { useNavigate } from "react-router-dom";
 
 function Signup() {
+  const navigate=useNavigate();
+
  const [form, fixform]=useState({
   name:"",
   email:"",
@@ -40,6 +43,7 @@ function Signup() {
 
   fixError("");
   alert("signup successful!");
+  navigate("/");
  }
 
  const change = (e) =>{
